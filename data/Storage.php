@@ -2,6 +2,6 @@
 
 class Storage {
 	function test() {
-		echo "Hello ";
+		echo "Hello Test";
 	}
 }

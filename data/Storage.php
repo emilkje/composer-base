@@ -1,3 +1,7 @@
 <?php
 
-class Storage {}
+class Storage {
+	function test() {
+		echo "Hello ";
+	}
+}

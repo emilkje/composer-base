@@ -1,0 +1,22 @@
+{
+    "name": "emilkje/base",
+    "description": "Test base",
+    "keywords": ["example", "project", "base"],
+    "homepage": "http://innit.no",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Emil Kjelsrud",
+            "email": "emilkje@gmail.com",
+            "homepage": "http://emilkjelsrud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": ["handler", "data", "template", "processor"]
+    }
+}
